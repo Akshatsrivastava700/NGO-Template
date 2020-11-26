@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Donation</title>
+    <link rel="stylesheet" href="/home/neuron/Projects/website_dev_proj/css/donation-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <header>
+      <h1>The Green Trees Initiative</h1>
+    </header>
+    <!---Donation Form-->
+    <section class="donation">
+      <form class="donation-form-inline" action="#">
+        <h1>Your Information</h1>
+        <div class="name">
+          <div class="first-name">
+            <label for="first-name">First Name</label>
+            <input type="text" id="first-name" placeholder="First Name">
+            <hr>
+          </div>
+          <div class="last-name">
+            <label for="last-name">Last Name</label>
+            <input type="text" id="last-name" placeholder="Last Name" >
+            <hr>
+          </div>
+        </div>
+        <div class="street-address">
+          <label for="address">Street address</label>
+          <input type="text" id="address" placeholder="Sreet Address" >
+          <hr>
+        </div>
+        <div class="location">
+          <div class="city">
+            <label for="city-name">city</label>
+            <input type="text" id="city-name" placeholder="City Name" >
+            <hr>
+          </div>
+          <div class="state">
+            <label for="state-name">State</label>
+            <select id="state-name">
+              <option value="new delhi">New Delhi</option>
+              <option value="uttar pradesh">Uttar Pradesh</option>
+              <option value="karnataka">Karnataka</option>
+            </select>
+            <hr>
+          </div>
+          <div class="zip">
+            <label for="zip-code">Zip Code</label>
+            <input type="text" id="zip-code" pattern="[0-9]{6}" placeholder="Zip Code" >
+            <hr>
+          </div>
+        </div>
+        <div class="email">
+          <label for="email-addr">Email Address</label>
+          <input type="text" id="email-addr" placeholder="Email Address" >
+          <hr>
+        </div>
+        <h1>Payment information</h1>
+        <div class="credit-card">
+          <label for="credit-card-no">credit card number</label>
+          <input type="text" id="credit-card" pattern="[0-9]{12}" placeholder="Credit Card Number" >
+          <hr>
+        </div>
+        <div class="card-date-cvv">
+          <div class="exp-month">
+            <label for="expiry">Expiration</label>
+            <input type="text" id="expiry" pattern="[0-9]{2}" placeholder="MM" >
+            <hr>
+          </div>
+          <div class="year">
+            <label for="exp-year"></label>
+            <input type="text" id="exp-year" pattern="[0-9]{4}" placeholder="MM" >
+            <hr>
+          </div>
+          <div class="cvv">
+            <label for="cvv-code">Security Code</label>
+            <input type="text" id="cvv-code" pattern="[0-9]{3}" placeholder="CVC" >
+            <hr>
+          </div>
+        </div>
+        <p>Click the button to confirm your donation of $10, recurring monthly.</p>
+        <div class="options">
+          <a href="#">Go Back</a>
+          <button type="submit">Process Payment</button>
+        </div>
+      </form>
+      <h3>Give HOPE to those Who need It most</h3>
+    </section>
+    <!-- Section : Donation Form ENDS-->
+
+    <!--Footer-->
+    <footer>
+      <div class="footer-branding">The Green Trees Initiative</div>
+      <div class="footer-box">
+        <h4>CONTACT US</h4>
+        <hr>
+        <p>123 Anywhere St. Cityname, NY 11206 (123) 456-7890 contact@npo.org</p>
+      </div>
+      <div class="footer-box">
+        <h4>LINKS</h4>
+        <hr>
+        <p>The issue<br>How we help<br>Get involved<br>Latest news</p>
+      </div>
+      <div class="footer-box">
+        <h4>FOLLOW US</h4>
+        <hr>
+        <p>Facebook<br>Twitter<br>Instagram<br>Medium</p>
+      </div>
+      <div class="footer-moto">#stop climate change</div>
+    </footer>
+    <!--Footer ENDS-->
+  </body>
+</html>
